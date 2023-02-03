@@ -19,7 +19,7 @@ margin:60px 10px 20px 90px;
 }
 @media(min-width:300px) and (max-width:800px){
     .main-left{
-        width:380px;
+        width:100%;
         height:300px;
         
         margin:60px 10px 20px 10px;
@@ -189,6 +189,7 @@ left:100px;
     .mid-main{
         display:flex;
         flex-direction: column;
+        
     }
 }
 
@@ -202,7 +203,7 @@ left:100px;
 }
 @media(min-width:300px) and (max-width:800px){
     .mid-left{
-        width:750px;
+        width:100%;
         height:1500px;
         
         margin-left: 5px;
@@ -224,7 +225,7 @@ left:100px;
 } 
 @media(min-width:300px) and (max-width:800px){
     .mid-left1{
-        width:355px;
+        width:100%;
         height:320px;
         border:1px solid rgb(144, 142, 142);
         border-top:none;
@@ -243,7 +244,7 @@ left:100px;
 }
 @media(min-width:300px) and (max-width:800px){
     .mid-left3{
-        width:750px;
+        width:100%;
         height:300px;
         
         position: relative;
@@ -267,7 +268,7 @@ left:100px;
 @media(min-width:300px) and (max-width:800px){
     .mid-right1{
         height:600px;
-        width:360px;
+        width:100%;
         border:1px solid black;
         margin-top: 211px;
     
@@ -319,7 +320,7 @@ top:1940px;
     .mid-right3{
 
         height:370px;
-        width:360px;
+        width:100%;
         
         margin-top: 40px;
         border:1px solid rgb(144, 142, 142);
@@ -345,7 +346,7 @@ top:1940px;
 @media(min-width:300px) and (max-width:800px){
     .mid-right4{
         height:250px;
-        width:380px;
+        width:100%;
         border:1px solid rgb(144, 142, 142);
         border-top:none;
         border-left:none;
@@ -378,7 +379,7 @@ top:1940px;
         .unred4{
             color:red;
             position: absolute;
-            top:6104px;
+            top:6117px;
             left:20px;
             }
     }
@@ -400,7 +401,7 @@ top:1940px;
     .last{
         display:flex;
         flex-direction: column;
-        width:350px;
+        width:100%;
         height:300px;
         margin-left: 10px;
         margin-top: 50px;
@@ -420,18 +421,19 @@ top:1940px;
     border-top:none;
     border-left:none;
     border-bottom: none;
+    border-right: none;
     
 } 
 @media(min-width:300px) and (max-width:800px){
     .last1{
         height:280px;
-        width:350px;
+        width:100%;
         margin-top: 10px;
         border: 1px solid rgb(168, 166, 166);
         text-align: center;
         border-top:none;
         border-left:none;
-        border-bottom: none;
+        border-right:none;
         
     }
 }
@@ -441,13 +443,13 @@ top:1940px;
 .last2{
     height:280px;
     width:376px;
-    
+    margin-top: 20px;
     border: 1px solid rgb(132, 130, 130);
     text-align: center;
     border-top:none;
-    border-left:none;
+    
     border-bottom: none;
-    border-right: none;
+
 }
 .last2:hover{
     box-shadow: 0 0 10px rgb(82, 81, 81);
@@ -455,7 +457,7 @@ top:1940px;
 @media(min-width:300px) and (max-width:800px){
     .last2{
         height:280px;
-        width:350px;
+        width:100%;
         
         border: 1px solid rgb(132, 130, 130);
         text-align: center;
@@ -475,7 +477,6 @@ top:1940px;
     border-left:none;
     border-bottom: none;
     border-right: none;
-
 }
 .last3:hover{
     box-shadow: 0 0 10px rgb(82, 81, 81);
@@ -483,8 +484,8 @@ top:1940px;
 @media(min-width:300px) and (max-width:800px){
     .last3{
         height:280px;
-        width:350px;
-        margin-top: 10px;
+        width:100%;
+        
         border: 1px solid rgb(132, 130, 130);
         text-align: center;
         border-top:none;

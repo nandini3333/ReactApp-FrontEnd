@@ -231,7 +231,7 @@ Latest Articles<div className='unred2'>______</div>
     <div className="last2">
     {Apidata.slice(14,15).map((item3,index3)=>{
                     return(
-                    <div className="last1" key={index3}>
+                    <div  key={index3}>
                         
                     <div className="contentz1"
                     onClick={()=> handleNavigationhome(item3,index3)}

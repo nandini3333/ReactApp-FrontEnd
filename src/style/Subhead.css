@@ -25,7 +25,7 @@
     .unred{
         color:red;
         position: absolute;
-        top:269px;
+        top:276px;
         left:20px;
     }
 }
@@ -38,7 +38,7 @@ left:870px;
     .topposts{
         position:absolute;
         left:20px;
-        top:3650px;
+        top:3093px;
         }
 }
 .unred1{
@@ -51,7 +51,7 @@ left:870px;
     .unred1{
         color:red;
         position: absolute;
-        top:3655px;
+        top:3101px;
         left:20px;
     }
 }
@@ -61,7 +61,6 @@ left:870px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    
     margin-top: 5px;
 
     
@@ -73,8 +72,8 @@ left:870px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        margin-top: 5px;
-    
+        margin-top: 1px;
+        width:100%;
         
     } 
 }
@@ -91,10 +90,10 @@ left:870px;
 @media(min-width:300px) and (max-width:800px){
     .child1{
         height:3350px;
-        
+        width:100%;
         display: flex;
         flex-direction: column;
-        margin-left:20px ;
+        margin-left:1px ;
         margin-top: 5px;
         margin-bottom: 30px;
     }
@@ -113,8 +112,8 @@ left:870px;
 } 
 @media(min-width:300px) and (max-width:800px){
     .one{
-        height:460px;
-        max-width:330px;
+        height:380px;
+        width:100%;
         border:1px solid rgb(165, 162, 162);
         border-top:none;
         border-left:none;
@@ -141,6 +140,17 @@ left:870px;
 
    
 } 
+@media(min-width:300px) and (max-width:800px){
+    .child2{
+    
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+         margin-left:1px ;
+        width:100%;
+       margin-top: -546px;
+    } 
+}
 .a{
     height:435px;
     width:380px;
@@ -156,7 +166,7 @@ left:870px;
 @media(min-width:300px) and (max-width:800px){
     .a{
         height:435px;
-        width:330px;
+        width:100%;
         border:1px solid rgb(165, 162, 162);
         border-top:none;
         border-left:none;
@@ -178,7 +188,7 @@ left:870px;
 @media(min-width:300px) and (max-width:800px){
     .b{
         height:180px;
-        width:330px;
+        width:100%;
         border:1px solid rgb(165, 162, 162);
         border-top:none;
         border-left:none;
@@ -198,7 +208,7 @@ left:870px;
 @media(min-width:300px) and (max-width:800px){
     .c{
         height:685px;
-        width:330px;
+        width:100%;
         border:1px solid rgb(2, 0, 14);
         position: relative;
         top:361px;
