@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
+
+.articlehome{
+    display: flex;
+}
+@media(min-width:300px) and (max-width:800px){
+    .articlehome{
+        display: flex;
+    }
+}
+
+.top1home{
+    margin-top: 10px;
+    height:50px;
+    width:100%;
+    border:1px solid rgb(174, 171, 171);
+    color:black;
+    
+}
+@media(min-width:300px) and (max-width:800px){
+    .top1home{
+        margin-top: 10px;
+        height:50px;
+        width:100%;
+        border:1px solid rgb(174, 171, 171);
+        color:black;
+        
+    }
+}
+
+.the1home{
+    color: black;
+    font-size:x-large;
+    position: absolute;
+    left:80px;
+    top:8px;
+    transform:rotate(-90deg)
+}
+@media(min-width:300px) and (max-width:800px){
+    .the1home{
+        color: black;
+        font-size:x-large;
+        position: absolute;
+        left:10px;
+        top:8px;
+        transform:rotate(-90deg)
+    }
+}
+.siren1home{
+    color: black;
+    font-size:xxx-large;
+    position: absolute;
+    left:110px;
+    top:-35px;
+    
+}
+@media(min-width:300px) and (max-width:800px){
+    .siren1home{
+        color: black;
+        font-size:xxx-large;
+        position: absolute;
+        left:40px;
+        top:-35px;
+        
+    }
+}
+
+@media(min-width:300px) and (max-width:800px){
+    .the1home{
+        color: black;
+        font-size:x-large;
+        position: absolute;
+        left:10px;
+        top:8px;
+        transform:rotate(-90deg)
+    }
+}
+
+.gethome{
+    color: rgb(91, 52, 247);
+    font-size: large;
+    position: absolute;
+    right:100px;
+    top:30px;
+    background-color: white;
+    border:1px solid rgb(91, 52, 247);
+}
+@media(min-width:300px) and (max-width:800px){
+    .gethome{
+        color: rgb(91, 52, 247);
+        font-size: large;
+        position: absolute;
+        right:20px;
+        top:30px;
+        background-color: white;
+        border:1px solid rgb(91, 52, 247);
+    }
+}
+.body1home{
+    box-sizing: content-box;
+
+    width:600px;
+    margin-left: 400px;
+}
+@media(min-width:300px) and (max-width:800px){
+    .body1home{
+        box-sizing: content-box;
+        width:100%;
+        margin-left: 1px;
+        margin-top: 10px;
+        border:1px solid rgb(216, 213, 213);
+    }
+}
+
+.authornamehome{
+    position: relative;
+    left:80px;
+    top:-80px;
+
+}
+.lastreadhome{
+    position:relative;
+    left:80px;
+    top:-90px;
+}
+.urlimagehome{
+    width:600px;
+    height:300px;
+    position: relative;
+    top:-40px;
+}
+@media(min-width:300px) and (max-width:800px){
+    .urlimagehome{
+        width:100%;
+        height:300px;
+        position: relative;
+        top:-40px;
+    }
+}
+.contentfullhome{
+    font-size: large;
+    position: relative;
+    top:-40px;
+}
+@media(min-width:300px) and (max-width:800px){
+    .contentfullhome{
+        font-size: large;
+        position: relative;
+        top:-40px;
+        width:100%;
+    }
+}
+
+.backhome{
+    color:red;
+    
+}
+.socialmedia{
+    position:absolute;
+    padding-left: 200px;
+    top:180px;
+}
+@media(min-width:300px) and (max-width:800px){
+    .socialmedia{
+        position:absolute;
+        padding-left: 90px;
+        top:170px;
+    }
+}
+.fa-brands{
+    padding-left: 8px;
+}
+@media(min-width:300px) and (max-width:800px){
+    .fa-brands{
+        padding-left: 8px;
+    }
+}

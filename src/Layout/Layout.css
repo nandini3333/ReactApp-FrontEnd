@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
+
+.img-size{
+    width:300px;
+    height:180px;
+    position: relative;
+    top:25px;
+}
+@media (min-width:300px) and (max-width:800px){
+    .img-size{
+        width:160px;
+        height:180px;
+        position: relative;
+        top:25px;
+    }
+}
+
+.content{
+    position:relative;
+    top:-178px;
+    left:314px;
+    width:400px;
+}
+@media (min-width:300px) and (max-width:800px){
+    .content{
+        position:relative;
+        top:-178px;
+        left:180px;
+        width:150px;
+    }
+}
+#title{
+    position: relative;
+    top:0px;
+}
+#middle{
+    position:relative;
+    top:-39px;
+}
+#last{
+    position: relative;
+    top:-22px;
+    font-weight: bold;
+}
+
+.img-size1{
+    width:380px;
+    height:250px;
+    position: relative;
+    top:30px;
+}
+@media (min-width:300px) and (max-width:800px){
+    .img-size1{
+        width:330px;
+        height:250px;
+        position: relative;
+        top:30px;
+    }
+}
+.content1{
+    position:relative;
+    top:20px;
+    
+    width:280px;
+}
+#last1{
+    position:relative;
+    top:-30px;
+    font-weight: bold;
+}
+.img-size2{
+    width:150px;
+    height:100px;
+    position: relative;
+    top:30px;
+}
+.content2{
+    position:relative;
+    top:-92px;
+    left:165px;
+    font-size: smaller;
+    width:140px;
+    
+}
+#last2{
+    position:relative;
+    top:-30px;
+    font-weight: bold;
+}
+
+.no1{
+    font-size: xx-large;
+    position: relative;
+    top:-140px;
+    left:310px;
+    color:rgb(146, 142, 142);
+    
+}
+@media (min-width:300px) and (max-width:800px){
+    .no1{
+        font-size: xx-large;
+        position: relative;
+        top:-140px;
+        left:290px;
+        color:rgb(146, 142, 142);
+        
+    }
+}
+.no2{
+    font-size: xx-large;
+    position: relative;
+    top:-280px;
+    left:310px;
+    color:rgb(146, 142, 142);
+}
+@media (min-width:300px) and (max-width:800px){
+    .no2{
+        font-size: xx-large;
+        position: relative;
+        top:-280px;
+        left:290px;
+        color:rgb(146, 142, 142);
+    }
+}
