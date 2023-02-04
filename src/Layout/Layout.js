@@ -3,6 +3,7 @@ import "./Layout.css"
 // import arrow from "../Images/arrow.svg"
 import { useNavigate } from "react-router-dom";
 
+
 const Layout = (props)=>{
   const navigate = useNavigate();
     const {name,Apidata} = props;
@@ -21,7 +22,7 @@ const Layout = (props)=>{
 <div className='container'>
             <div className='child1'>
               <div className='one'>
-                {Apidata.slice(3,10).map((item,index)=>{
+                {Apidata.slice(10,19).map((item,index)=>{
                     return(
                     <div className="one" key={index}>
                         <img className="img-size"

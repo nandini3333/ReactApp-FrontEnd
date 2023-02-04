@@ -219,6 +219,8 @@ cursor: pointer;
  width:750px;  
  border-radius: 10px; 
  cursor: pointer;
+ position: absolute;
+ top:-700px;
 }
 @media(min-width:300px) and (max-width:800px){
     .img-sizebb{
