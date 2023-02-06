@@ -47,7 +47,7 @@ const navigate = useNavigate();
           <div className='container'>
             <div className='child1'>
               <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
+                {Hollydata.slice(0,7).map((item,index)=>{
                     return(
                     <div className="one" key={index}>
                         <img className="img-size"
@@ -61,97 +61,7 @@ const navigate = useNavigate();
                 })}
                 
               </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              <div className='one'>
-                {Hollydata.slice(0,1).map((item,index)=>{
-                    return(
-                    <div className="one" key={index}>
-                        <img className="img-size"
-                        onClick={()=> handleNavigation(item,index)} src={item.urlToImage} alt={"images"}/>
-                    <div className="content">
-                        <h3 id="title">{item.title}</h3><br/>
-                         <p id="middle"> {item.content}</p>
-                         <p id="last">{item.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-                
-              </div>
-              {/* <div className='two'>
+                            {/* <div className='two'>
             <img src={arrow.svg} alt={"down-arrow"}/>
             LOAD MORE
               </div> */}
@@ -159,7 +69,7 @@ const navigate = useNavigate();
 
             <div className='child2'>
               <div className='a'>
-              {Hollydata.slice(1,2).map((item1,index1)=>{
+              {Hollydata.slice(7,8).map((item1,index1)=>{
                     return(
                     <div className="a" key={index1}>
                         <img className="img-size1" 
@@ -177,7 +87,7 @@ const navigate = useNavigate();
               </div>
               
               <div className='b'>
-              {Hollydata.slice(2,3).map((item2,index2)=>{
+              {Hollydata.slice(8,11).map((item2,index2)=>{
                     return(
                     <div className="b" key={index2}>
                         <img className="img-size2" 
@@ -188,8 +98,8 @@ const navigate = useNavigate();
                         
                          <p id="last2">{item2.publishedAt}</p>
                     </div>
-                     <div className="no2">
-                    <h1>2</h1>  
+                     <div className="no2"><h1>{index2+2}</h1>  
+                    
                     </div>  
                       
                       
@@ -197,48 +107,7 @@ const navigate = useNavigate();
                 })}                
 
                </div> 
-               <div className='b'>
-              {Hollydata.slice(2,3).map((item2,index2)=>{
-                    return(
-                    <div className="b" key={index2}>
-                        <img className="img-size2" 
-                        onClick={()=> handleNavigation(item2,index2)}
-                        src={item2.urlToImage} alt={"images"}/>
-                    <div className="content2">
-                        <h3 id="title2">{item2.title}</h3><br/>
-                        
-                         <p id="last2">{item2.publishedAt}</p>
-                    </div>
-                     <div className="no2">
-                    <h1>3</h1>  
-                    </div>  
-                      
-                      
-                    </div>)
-                })}                
-
-               </div>
-               <div className='b'>
-              {Hollydata.slice(2,3).map((item2,index2)=>{
-                    return(
-                    <div className="b" key={index2}>
-                        <img className="img-size2" 
-                        onClick={()=> handleNavigation(item2,index2)}
-                        src={item2.urlToImage} alt={"images"}/>
-                    <div className="content2">
-                        <h3 id="title2">{item2.title}</h3><br/>
-                        
-                         <p id="last2">{item2.publishedAt}</p>
-                    </div>
-                     <div className="no2">
-                    <h1>4</h1>  
-                    </div>  
-                      
-                      
-                    </div>)
-                })}                
-
-               </div>
+               
               <div className='c'>
               <p className="add">Advertisement</p>
               </div>

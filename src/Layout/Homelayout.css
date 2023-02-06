@@ -240,7 +240,7 @@ left:100px;
     height:300px;
     
     position: relative;
-    top:825px;
+    top:1525px;
 }
 @media(min-width:300px) and (max-width:800px){
     .mid-left3{
@@ -250,6 +250,11 @@ left:100px;
         position: relative;
         top:825px;
     }
+}
+
+.view{
+    position:relative;
+    top:-300px;
 }
 
 

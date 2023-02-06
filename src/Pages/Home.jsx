@@ -51,7 +51,7 @@ function Home() {
 </div>
 <div className="main-right">
     <div className="right1">
-    {Homedata.slice(5,6).map((item9,index9)=>{
+    {Homedata.slice(1,2).map((item9,index9)=>{
                     return(
                     <div  key={index9}>
                          <img className="img-sizeabb" 
@@ -67,7 +67,7 @@ function Home() {
     </div>
 
     <div className="right2">
-    {Homedata.slice(5,6).map((item,index)=>{
+    {Homedata.slice(2,3).map((item,index)=>{
                     return(
                     <div  key={index}>
                         <img className="img-size11" 
@@ -91,7 +91,7 @@ function Home() {
 
 <div className="latestart">
     <div className="latest1">
-    {Homedata.slice(6,7).map((item,index)=>{
+    {Homedata.slice(3,4).map((item,index)=>{
                     return(
                     <div  key={index}>
                         <img className="img-size13" 
@@ -107,7 +107,7 @@ function Home() {
 
     </div>
     <div className="latest2">
-    {Homedata.slice(6,7).map((item,index)=>{
+    {Homedata.slice(4,5).map((item,index)=>{
                     return(
                     <div  key={index}>
                         <img className="img-size23" 
@@ -123,7 +123,7 @@ function Home() {
 
     </div>
     <div className="latest3">
-    {Homedata.slice(6,7).map((item,index)=>{
+    {Homedata.slice(5,6).map((item,index)=>{
                     return(
                     <div  key={index}>
                         <img className="img-size33" 
@@ -148,7 +148,7 @@ Latest Articles<div className='unred2'>______</div>
 <div className="mid-main">
     <div className="mid-left">
         <div className="mid-left1">
-        {Homedata.slice(3,4).map((item7,index7)=>{
+        {Homedata.slice(6,10).map((item7,index7)=>{
                     return(
                     <div className="mid-left1" key={index7}>
                         <img className="img-size41" 
@@ -164,62 +164,13 @@ Latest Articles<div className='unred2'>______</div>
 
         </div>
 
-        <div className="mid-left1">
-        {Homedata.slice(3,4).map((item7,index7)=>{
-                    return(
-                    <div className="mid-left1" key={index7}>
-                        <img className="img-size41" 
-                        onClick={()=> handleNavigationhome(item7,index7)}
-                        src={item7.urlToImage} alt={"images"}/>
-                    <div className="content41">
-                        <h3 id="title41">{item7.title}</h3><br/>
-                         <p id="middle41"> {item7.content}</p>
-                         <p id="last41">{item7.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-
-        </div>
-
-        <div className="mid-left1">
-        {Homedata.slice(3,4).map((item7,index7)=>{
-                    return(
-                    <div className="mid-left1" key={index7}>
-                        <img className="img-size41" 
-                        onClick={()=> handleNavigationhome(item7,index7)}
-                        src={item7.urlToImage} alt={"images"}/>
-                    <div className="content41">
-                        <h3 id="title41">{item7.title}</h3><br/>
-                         <p id="middle41"> {item7.content}</p>
-                         <p id="last41">{item7.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-
-        </div>
-
-        <div className="mid-left1">
-        {Homedata.slice(3,4).map((item7,index7)=>{
-                    return(
-                    <div className="mid-left1" key={index7}>
-                        <img className="img-size41" 
-                        onClick={()=> handleNavigationhome(item7,index7)}
-                        src={item7.urlToImage} alt={"images"}/>
-                    <div className="content41">
-                        <h3 id="title41">{item7.title}</h3><br/>
-                         <p id="middle41"> {item7.content}</p>
-                         <p id="last41">{item7.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-
-        </div>
+        
 {/* <div className="mid-left2">
     <img src={arrow.svg} alt={"downarrow"}/>
     LOAD MORE</div> */}
 
     <div className="mid-left3">
-    {Homedata.slice(1,2).map((item6,index6)=>{
+    {Homedata.slice(10,11).map((item6,index6)=>{
                     return(
                     <div  key={index6}>
                          <img className="img-sizebb" 
@@ -234,6 +185,10 @@ Latest Articles<div className='unred2'>______</div>
                 })}
 
     </div>
+    {/* <div className="view">
+ <i class="fa-solid fa-arrow-down"></i>
+    VIEW MORE</div>  */}
+
     </div>
 
 
@@ -244,7 +199,7 @@ Latest Articles<div className='unred2'>______</div>
     Top Posts<div className='unred3'>______</div>
     </div>
     <div className="mid-right3">
-    {Homedata.slice(2,3).map((item5,index5)=>{
+    {Homedata.slice(11,12).map((item5,index5)=>{
                     return(
                     <div key={index5}>
                         <img className="img-size88" 
@@ -259,7 +214,7 @@ Latest Articles<div className='unred2'>______</div>
                 })}
     </div>
     <div className="mid-right4">
-    {Homedata.slice(4,5).map((item5,index5)=>{
+    {Homedata.slice(12,14).map((item5,index5)=>{
                     return(
                     <div className="mid-right4" key={index5}>
                         <img className="img-size89" 
@@ -274,22 +229,7 @@ Latest Articles<div className='unred2'>______</div>
                 })}
     </div>
 
-    <div className="mid-right4">
-    {Homedata.slice(4,5).map((item5,index5)=>{
-                    return(
-                    <div className="mid-right4" key={index5}>
-                        <img className="img-size89" 
-                        onClick={()=> handleNavigationhome(item5,index5)}
-                        src={item5.urlToImage} alt={"images"}/>
-                    <div className="content89">
-                        <h3 id="title89">{item5.title}</h3><br/>
-                        
-                         <p id="last89">{item5.publishedAt}</p>
-                    </div>
-                    </div>)
-                })}
-    </div>
-
+    
     </div>
 </div>
 
@@ -299,7 +239,7 @@ Latest Articles<div className='unred2'>______</div>
 <div className="last">
     <div className="last1">
 
-    {Homedata.slice(7,8).map((item3,index3)=>{
+    {Homedata.slice(14,15).map((item3,index3)=>{
                     return(
                     <div key={index3}>
                         
@@ -315,7 +255,7 @@ Latest Articles<div className='unred2'>______</div>
 
     </div>
     <div className="last2">
-    {Homedata.slice(7,8).map((item3,index3)=>{
+    {Homedata.slice(15,16).map((item3,index3)=>{
                     return(
                     <div  key={index3}>
                         
@@ -331,7 +271,7 @@ Latest Articles<div className='unred2'>______</div>
 
     </div>
     <div className="last3">
-    {Homedata.slice(7,8).map((item3,index3)=>{
+    {Homedata.slice(16,17).map((item3,index3)=>{
                     return(
                     <div  key={index3}>
                         
@@ -349,8 +289,7 @@ Latest Articles<div className='unred2'>______</div>
     
 </div>
 
-{/* <div className="view">VIEW MORE
-<img src={arrow.svg} alt={"rightarrow"}/></div> */}
+ 
        
 </>
   )
