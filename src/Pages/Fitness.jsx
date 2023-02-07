@@ -31,6 +31,7 @@ function Fitness() {
 
 </div>
 </div>
+<hr className="hrtag" />
 
 <div >
           <div className='Subhead'> Fitness<span className='unred'>_____</span>              

@@ -33,6 +33,7 @@ console.log(Techdata);
 
 </div>
 </div>
+<hr className="hrtag" />
 <div >
           <div className='Subhead'>Technology<span className='unred'>_____</span>
                                    <span className='unred1'>_____</span><span className='topposts'>Top Posts</span>

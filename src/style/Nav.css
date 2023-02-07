@@ -1,26 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
 
 
-.fullnav{
-    border: 1px solid rgb(165, 162, 162); 
+/* .fullnav{
+     border: 1px solid rgb(165, 162, 162); 
     border-top:none;
     border-left:none;
     border-right:none;
-    margin:15px 90px 0 90px;
+    margin:15px 90px 0 90px; 
     
     
 }
 @media(Min-width:300px) and (max-width:800px) {
-    .fullnav{
-        border: 1px solid rgb(165, 162, 162); 
-        border-top:none;
+     .fullnav{
+         border: 1px solid rgb(165, 162, 162);  
+         border-top:none;
         border-left:none;
         border-right:none;
         width:100%;
         position: relative;
         left:-90px;
-    
+        margin-left: 0px;
+        width:100%; 
+     
 }
+} */
+
+.hrtag{
+    margin: 0 80px 0 80px;
+}
+@media(Min-width:300px) and (max-width:800px) {
+    .hrtag{
+        margin:0px;
+    }
 }
 
 .the{
@@ -36,10 +47,11 @@
     .the{
         transform: rotate(-90deg);
        position:absolute;
-       left:9px; 
-       top: 10px;
+       left:10px; 
+       top: 20px;
        font-size: 25px;
         display: inline;
+        
         
     }
 }
@@ -47,8 +59,8 @@
    
     font-size: 50px;
     position: relative;
-    left:500px;
-    top: -10px;
+    left:580px;
+    top: -5px;
     font-style:bold ;
 }
 @media(Min-width:300px) and (max-width:800px) {
@@ -56,7 +68,7 @@
         position: relative;
         left:31px;
         top: -6px;
-    
+        width:100%;
         font-size: 50px;
         padding-left: 5px;
         font-style:bold ;
@@ -79,7 +91,7 @@
         flex-direction: column;
          width:100%;
          text-align: center;
-         margin-left: 1px;
+         margin-left: 0px;
         
     
     }
@@ -89,5 +101,6 @@
     text-decoration: none;
     color:black;
     position: relative;
-    left:10px;
+    left:40px;
+    width:100%;
 }

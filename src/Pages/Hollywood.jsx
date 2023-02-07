@@ -34,6 +34,7 @@ const navigate = useNavigate();
 
 </div>
 </div>
+<hr className="hrtag" />
 <div >
            <div className='Subhead'> Hollywood<span className='unred'>_____</span>
           

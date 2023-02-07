@@ -31,6 +31,7 @@ function Home() {
 
 </div>
 </div>
+<hr className="hrtag" />
        
 <div className="main3">
 <div className="main-left">
