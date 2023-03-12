@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
+
+@media(Min-width:300px) and (max-width:800px) {
+    .siren{
+        position: relative;
+        left:31px;
+        top: -6px;
+        width:100%;
+        font-size: 50px;
+        padding-left: 5px;
+        font-style:bold ;
+    }
+}
+.topnav{
+    
+    display:flex;
+    justify-content: space-around;
+    font-size:x-large;
+    margin:20px 90px 0 90px;
+    
+
+}
+@media(Min-width:300px) and (max-width:800px) {
+    .topnav{
+    
+        display:flex;
+        font-size:x-large;
+        flex-direction: column;
+         width:100%;
+         text-align: center;
+         margin-left: 0px;
+        
+    
+    }
+}
+
+.li{
+    text-decoration: none;
+    color:black;
+    position: relative;
+    left:40px;
+    width:100%;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sofia+Sans:wght@200&display=swap');
+
+.the{
+
+    transform: rotate(-90deg);
+    position:absolute;
+    top:23px;
+    left:560px;
+    font-size: x-large;
+    display: inline;
+}
+@media(Min-width:300px) and (max-width:800px) {
+    .the{
+        transform: rotate(-90deg);
+       position:absolute;
+       left:10px; 
+       top: 20px;
+       font-size: 25px;
+        display: inline;
+        
+        
+    }
+}
+.siren{
+   
+    font-size: 50px;
+    position: relative;
+    left:580px;
+    top: -5px;
+    font-style:bold ;
+}
+@media(Min-width:300px) and (max-width:800px) {
+    .siren{
+        position: relative;
+        left:31px;
+        top: -6px;
+        width:100%;
+        font-size: 50px;
+        padding-left: 5px;
+        font-style:bold ;
+    }
+}
