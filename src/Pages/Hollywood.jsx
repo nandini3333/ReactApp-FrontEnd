@@ -16,7 +16,7 @@ function Hollywood() {
 
   const [Hollydata, setHollydata] = useState([])
   useEffect(() => {
-    const url = "https://react-backend-blog.onrender.com/Hollywood"
+    const url = "https://backend-blog-6o9c.onrender.com/Hollywood"
     // const url = "http://localhost:4500/hollywood"
     fetch(url).then(res => res.json())
       .then(res => setHollydata(res))

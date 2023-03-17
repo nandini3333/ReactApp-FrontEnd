@@ -15,7 +15,7 @@ function Food() {
 
   const [Fooddata, setFooddata] = useState([])
   useEffect(() => {
-    const url = "https://react-backend-blog.onrender.com/Food"
+    const url = "https://backend-blog-6o9c.onrender.com/Food"
     // const url = "http://localhost:4500/hollywood"
     fetch(url).then(res => res.json())
       .then(res => setFooddata(res))

@@ -41,25 +41,7 @@ const ArticleContent = () =>{
 
     <img className="urlimage" src={location.state.urlToImage} alt={"images"}/>
     <p className="contentfull">
-        {location.state.content}
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quibusdam nulla vitae.
-         Nostrum voluptas odit ad minima deleniti voluptatum fugiat suscipit. Sint natus
-          tempora quisquam, labore eveniet ad quos officiis?
+        {location.state.content}{location.state.content1}
     </p>
 
     <h4>FOR MORE INFORMATION CLICK ON BELOW LINK:

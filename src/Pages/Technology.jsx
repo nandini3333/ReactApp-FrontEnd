@@ -16,7 +16,7 @@ function Technology() {
 
   const [Techdata, setTechdata] = useState([])
   useEffect(() => {
-    const url = "https://react-backend-blog.onrender.com/Technology"
+    const url = "https://backend-blog-6o9c.onrender.com/Technology"
     // const url = "http://localhost:4500/hollywood"
     fetch(url).then(res => res.json())
       .then(res => setTechdata(res))
