@@ -8,9 +8,6 @@ import Fitness from "../Pages/Fitness"
 import ArticleContent from "../Singlepage/Article"
 import Homearticle from "../Singlepage/Homearticle"
 
-import NavBar from "../CommonComp/NavBar/NavBar"
-
-
 
 function RouterComponent() {
   return (
